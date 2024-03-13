@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLASS PROJECT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
 </head>
-<body>git
- <div>
-    <h2>CLAS PROJECT</h2>
-    <form action="submit-form" methods="POST"></form>
-    <label for="Name">Name</label>
-    <input type="password" >
- </div>
+<body>
+  <h2>Temperature </h2>
+  <form id="temperatureForm">
+    <label for="inputTemp">Input Temperature:</label>
+    <input type="number" id="inputTemp" name="inputTemp" required>
+    <br><br>
     
+    <label>Input Unit:</label>
+    <label for="fahrenheit">
+      <input type="radio" id="fahrenheit" name="inputUnit" value="fahrenheit" checked>
+      Fahrenheit
+    </label>
+    <label for="celsius">
+      <input type="radio" id="celsius" name="inputUnit" value="celsius">
+      Celsius
+    </label>
+    <br><br>
+    
+    <label>Output Unit:</label>
+    <label for="outputFahrenheit">
+      <input type="radio" id="outputFahrenheit" name="outputUnit" value="fahrenheit" checked>
+      Fahrenheit
+    </label>
+    <label for="outputCelsius">
+      <input type="radio" id="outputCelsius" name="outputUnit" value="celsius">
+      Celsius
+    </label><br><br>
+    <button>Convert</button>
+    
+     
+  </form>
+ 
+  </script>
 </body>
 </html>
