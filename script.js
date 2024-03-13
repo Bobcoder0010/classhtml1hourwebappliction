@@ -1,0 +1,1 @@
+const temperature = document.querySelector('.input').value
